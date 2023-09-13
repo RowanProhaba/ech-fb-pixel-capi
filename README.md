@@ -1,3 +1,5 @@
 # ech-fb-pixel-capi
 ## Usage
-To track event, you need to enter Pixel ID and FB Access Token in dashboard setting page first and intall [PixelYourSite Plugin](<https://wordpress.org/plugins/pixelyoursite/>).
+1. Install [PixelYourSite Plugin](<https://wordpress.org/plugins/pixelyoursite/>).
+2. Enter Pixel ID and FB Access Token in dashboard setting page.
+3. Set attribute `data-btn="whatsapp" and data-btn="phone"` on the tracking element or add class `f_wtsapp_btn and f_phone_btn` on <a> tag's parent element.
